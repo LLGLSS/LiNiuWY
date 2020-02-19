@@ -1,0 +1,336 @@
+/* 初始化样式 */
+*{margin: 0; padding: 0;}
+ul{list-style-type: none;}
+body{font: normal normal 16px/1.5 "宋体";}
+h1,h2,h3{font-weight: normal;}
+a{text-decoration: none; color: #4d4d4d;}
+
+/* 常用样式 */
+.w960{ width: 960px; margin-left: auto; margin-right: auto;}
+.fl{float: left;}
+.fr{float: right;}
+
+/* 网站logo区域样式=========================== */
+.logo{
+    background-color: #E65224;
+    height: 73px;
+    padding-top: 35px;
+}
+.logo ul p{
+    color: #fff;
+}
+.logo ul strong{
+    color: #fff;
+}
+.logo ul{
+    overflow: hidden;
+}
+.logo ul h1 a{
+    display: block;
+    width: 182px;
+    height: 45px;
+    background: url("../imgs/logo.png") no-repeat;
+    text-indent: -999px;
+}
+
+/* 网站导航区域样式=========================== */
+.nav{
+    height: 88px;
+    padding-left: 18px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+.nav .navwrapper{
+    margin-top: 34px;
+}
+.nav .navwrapper a{
+    margin-right: 56px;
+}
+.nav a:hover{
+    color: #e75225;
+}
+.nav a.current{
+    color: #e75225;
+}
+
+/* 网站轮播区域样式=========================== */
+.swiper{
+    /* border: 1px solid red; */
+    width: 960px;
+    height: 450px;
+    background: url(../imgs/bigAdvimg.png);
+    text-indent: -999px;
+}
+
+/* 网站安全样式=========================== */
+.safe{
+    /* border: 1px solid red; */
+    height: 82px;
+    margin-top: 43px;
+}
+.safe div{
+    float: left;
+    width: 320px;
+}
+.safe div img{
+    margin-right: 16px;
+    float: left;
+}
+.safe div dt{
+    font-size: 20px;
+    font-weight: bold;
+}
+.safe dl dd{
+    font-size: 14px;
+    line-height: 28px;
+    color: #696969;
+}
+
+/* 主要业务=========================== */
+.business{
+    /* border: 1px solid red; */
+    margin-top: 60px;
+}
+.business h3{
+    font-size:30px;
+    text-align: center;
+    font-weight: bold;
+}
+.business ul{
+    height: 310px;
+    margin-top: 50px;
+}
+.business ul li{
+    float: left;
+    width: 225px;
+    padding-right:20px;
+}
+.business ul li.last{
+    padding-right: 0;
+}
+
+.business ul li h4{
+    color: #e75255;
+    margin-top: 26px;
+}
+.business ul li p{
+    font-size: 14px;
+    color: #9f9f9f;
+    line-height: 2;
+}
+.business ul li a{
+    display: block;
+    width: 104px;
+    height: 40px;
+    text-align: center;
+    background-color: #4b4b4b;
+    color: #fff;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+/* 关于我们=========================== */
+.about{
+    height: 192px;
+    background-image: url("../imgs/about.jpg");
+    text-align: center;
+    color: #fff;
+    margin-top: 70px;
+}
+.about h4{
+    padding-top: 30px;
+}
+.about p{
+    font-size: 14px;
+    width: 548px;
+    line-height: 2;
+    margin: 40px auto 0;
+}
+
+/* 新闻=========================== */
+.newsAndProblem{
+    height: 420px;
+    margin-top: 60px;
+}
+.newsAndProblem h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.newsAndProblem .news li{
+    float: left;
+    width: 295px;
+}
+.newsAndProblem .news p{
+    float: left;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.newsAndProblem .news span{
+    float: right;
+}
+.newsAndProblem .news .first{
+    margin-right: 28px;
+}
+.newsAndProblem .news a{
+    line-height: 2.5;
+ }
+ .newsAndProblem .news a:hover{
+    color: #e75225;
+ }
+
+ .newsAndProblem .problem{
+     width: 320px;
+ }
+ .newsAndProblem .problem li{
+     padding-bottom: 20px;
+     padding-top: 15px;
+     line-height: 3;
+     border-bottom: 1px dashed #ccc;
+ }
+ .newsAndProblem .problem li.last{
+    padding-bottom: none;
+}
+.newsAndProblem .problem .ask, .newsAndProblem .problem .answer{
+    width: 240px;
+    line-height: 2;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.newsAndProblem .problem .ask{
+    font-size: 16px;
+    background-image: url("../imgs/q(1).jpg");
+ }
+ .newsAndProblem .problem .answer{
+    font-size: 14px;
+    color: #646464;
+    background-image: url("../imgs/q2.jpg");  
+ }
+ /* 合租机构=========================== */
+ .cooperative{
+    /* padding-left: 20px; */
+    /* border: 1px solid red; */
+    height: 330px;
+    background-color: #f6f6f6;
+}
+/* .cooperative a{
+    display: block;
+    width: 120px;
+    height: 36px;
+   
+    text-indent: -999px;
+    background: url("./imgs/index_sp.png") no-repeat;
+    
+} */
+.cooperative h4{
+    color: #666666;
+    padding-top: 50px;
+    font-size: 18px;
+    text-align: left;     
+}
+.cooperative .ul1{
+    padding-top: 50px;
+}
+.cooperative .ul2{
+    padding-top: 20px;
+}
+
+
+.p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9,.p10{
+    display: inline-block;
+    width: 116px;
+    height:34px;
+    vertical-align: middle;
+    background: url("../imgs/index_sp.png") no-repeat;
+    padding-left: 55px;
+}
+.p1{
+    background-position: 0px -0px;
+}
+.p2{
+    background-position: 0px -224px;
+}
+.p3{
+    background-position: 0px -283px;
+}
+
+.p4{
+    background-position: 0px -224px;
+}
+.p5{
+    background-position: 0px -62px;
+}
+.p6{
+    background-position: 0px -498px;
+}
+.p7{
+    background-position: 0px -173px;
+}
+.p8{
+    background-position: 0px -116px;
+}
+.p9{
+    background-position: 0px -336px;
+}
+.p10{
+    background-position: 0px -388px;
+}
+
+/* 联系我们样式=========================== */
+.contact{
+    background-color: #2c2c2c;
+    height: 180px;
+    color: #a9a9a9;
+    padding-top: 55px;
+
+}
+.contact dl{
+    float: left;
+}
+.contact dt{
+    font-size: 24px;
+}
+.wx,.wb,.phone,.android{
+    /* 让图片并排显示 */
+    display: inline-block;
+    padding-right: 10px;
+    width: 42px;
+    height: 48px;
+    background: url("../imgs/index_sp.png") no-repeat;
+}
+.wx{
+    background-position: -172px 0px;
+}
+.wb{
+    background-position: -228px 0px;
+    padding-right: 10px;
+}
+.phone{
+    background-position: -286px 0px;
+    padding-right: 10px;
+}
+.android{
+    background-position: -343px 0px;
+}
+.mb33{
+    margin-top: 33px;
+}
+.linkus{
+    margin-right: 25px;
+}
+.hotline{
+    margin-right: 25px;
+}
+.service{
+    margin-right: 50px;
+}
+
+ /* footer样式=========================== */
+ .footer{
+    background-color: #2c2c2c;
+    border-top: 1px solid #424242;
+    color: #666666;
+    text-align: center;
+    line-height: 2;
+}
